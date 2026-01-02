@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Thought</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header-->
+    <nav class="flex">
+        <img src="images/logo.png" alt="Deep Thought" id="logo-img">
+        <div class="nav-bar flex white">
+            <div class="i-container"><i class="fa-solid fa-house"></i></div>
+            <div class="i-container"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+            <div class="i-container"><i class="fa-solid fa-bell"></i></div>
+            <img class="profile" src="images/profile.jpg"></img>
+        </div>
+    </nav>
+    <main class="flex">
+        <section class="collapsed-jb">
+            <div class="collapsed-jb-arrow">
+                <i class="fa-solid fa-circle-arrow-right white"></i>
+            </div>
+            <div class="notification close-notification">1</div>
+        </section>
+
+
+
+        <section class="about">
+            <div class="about-head flex">
+            </div>
+            <div class="about-info">
+            </div>
+
+            <!-- Cards --> 
+            <div class="cards flex" id="cards"></div>
+        </section>
+
+
+
+        <section class="notice-board flex">
+            <div class="notice-board-top flex">
+                <div class="notice-board-cont">
+                    <i class="fa-solid fa-xmark"></i>
+                    <div class="notice">NOTICE BOARD</div>
+                </div>
+                <div class="place-holder"></div>
+            </div>
+
+            <div class="footer flex white">
+                <div class="footer-icon-container"><i class="fa-solid fa-question"></i></div>
+                <div class="footer-icon-container"><i class="fa-solid fa-people-group"></i></div>
+                <div class="footer-icon-container"><i class="fa-regular fa-calendar-days"></i></div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
